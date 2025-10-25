@@ -1,0 +1,143 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+h2.matches {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #444;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form select,
+form input[type="date"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #e67e22;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e67e22;
+}
+
+/* Message Styles */
+.message {
+    color: #fff;
+    background-color: #e67e22;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.message.error {
+    background-color: #f44336;
+}
+
+/* Match Display */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+p a {
+    color: #e67e22;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Match Log Styles */
+h3 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+p.match-log {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+/* Table for displaying match logs */
+.match-log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.match-log-table th,
+.match-log-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.match-log-table th {
+    background-color: #f4f4f4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 40px;
+}

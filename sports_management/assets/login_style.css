@@ -1,0 +1,101 @@
+/* Body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    background-image: url('sports_img.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Login container */
+.login-container {
+    width: 100%;
+    max-width: 400px; /* Limit width for the form */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+    text-align: center;
+}
+
+/* Title styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #f39c12; /* Bright sports-themed accent color */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Form inputs */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 90%; /* Match the form width */
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none; /* Remove borders */
+    border-radius: 5px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white input background */
+    color: #333;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+}
+
+/* Input focus styling */
+.login-container input:focus {
+    border: 2px solid #f39c12; /* Focus border color */
+    outline: none;
+    box-shadow: 0 0 8px rgba(243, 156, 18, 0.5); /* Glow effect */
+}
+
+/* Submit button styling */
+.login-container button {
+    width: 100%; /* Full width of the container */
+    padding: 12px;
+    background-color: #f39c12; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color: #e67e22; /* Slightly darker hover effect */
+}
+
+/* Error message */
+.login-container p {
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .login-container h2 {
+        font-size: 20px;
+    }
+
+    .login-container input,
+    .login-container button {
+        font-size: 14px;
+    }
+}
